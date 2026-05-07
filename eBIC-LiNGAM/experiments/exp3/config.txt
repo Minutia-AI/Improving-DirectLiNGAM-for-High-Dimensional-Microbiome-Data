@@ -1,0 +1,5 @@
+P = [50, 100, 150]
+K = [2, 3, 4] # expected number of edges
+RATIOS = [1.5, 2.0, 3.0, 4.0] # n = ratio*p
+N_MODELS = 100 # 100 runs
+

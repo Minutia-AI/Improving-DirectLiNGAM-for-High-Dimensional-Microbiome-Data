@@ -1,0 +1,8 @@
+This sets of experiments assess the capability of root screening in the context of barabasi networks
+
+
+# --- parameter grids ---
+P_LIST = [100, 300, 500]
+M_LIST = [1] # controls the density of the network (neighborhood)
+N_LIST = [2_000, 6_000, 10_000]
+RUNS = 10

@@ -1,0 +1,15 @@
+Configuration of the experiments
+
+Run time 268 mins 
+
+# number of variables
+p=[30,60,90,100]
+
+# number of expected adjacent variables 
+k=[2,3,4] 
+
+# ratio p/n (e.g 3 times 30)
+ratios = [1,1.5,2] 
+
+# number of models per combination
+n_models = 100

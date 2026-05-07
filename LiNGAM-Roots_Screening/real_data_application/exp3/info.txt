@@ -1,0 +1,12 @@
+df_CMD_all_species_filt = filter_species_features(
+    df_CMD_all_filt,
+    prevalence_min=0.05,        # 5% prevalence
+    mean_abundance_min=1e-2,    # remove ultra-low mean abundance
+    variance_min=None          # set e.g. 1e-6 only if still too many species
+)
+X_lingam = prepare_logratio_for_lingam(
+    df_CMD_all_species_filt,
+    metadata_cols=METADATA_COLS,
+    transform="clr",
+    standardize=True
+)

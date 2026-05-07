@@ -1,0 +1,7 @@
+Below is the configuration of exp1.
+# --- parameter grids ---
+P_LIST = [100, 300, 500]
+S_LIST = [0.15]
+N_LIST = [10_000]
+ROOT_FRAC_LIST = [0.1,0.2,0.3]
+RUNS = 20
